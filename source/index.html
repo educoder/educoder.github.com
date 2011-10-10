@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div id="about">  
+  <p>Educoder is an information hub for developers of educational technology, with an eye to research. Its mission is to support community among EdTech developers. To participate, come chat on the <a href="http://groups.google.com/group/educoder/">mailing list</a> or join the <a href="https://www.facebook.com/home.php?sk=group_226303434048976&amp;ap=1">Facebook group</a>.</p>
+</div>
+
+<aside class="sidebar">
+  {% if site.blog_index_asides.size %}
+    {% include_array blog_index_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+</aside>
