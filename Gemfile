@@ -14,4 +14,4 @@ group :development do
   gem 'stringex'
 end
 
-gem 'sinatra', '1.2.6'
+gem 'sinatra', '>= 1.2.6'
