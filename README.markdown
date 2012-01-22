@@ -1,5 +1,12 @@
 # Educoder organization web site
 
+## To publish
+
+''''
+rake generate
+rake push
+
+
 
 ## Sections
 
