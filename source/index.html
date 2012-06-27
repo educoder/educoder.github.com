@@ -10,21 +10,21 @@ layout: default
   src="javascript:void(0)"
   scrolling="no"
   frameborder="0"
-  width="900"
-  height="700">
+  width="800"
+  height="600">
 </iframe>
 <script type="text/javascript">
   document.getElementById('forum_embed').src =
      'https://groups.google.com/forum/embed/?place=forum/educoder'
      + '&showsearch=true&showpopout=true&showtabs=false'
-     + '&parenturl=' + encodeURIComponent(window.location.href);
+     // + '&parenturl=' + encodeURIComponent(window.location.href);
 </script>
 
 
-<aside class="sidebar">
+<!-- <aside class="sidebar">
   {% if site.blog_index_asides.size %}
     {% include_array blog_index_asides %}
   {% else %}
     {% include_array default_asides %}
   {% endif %}
-</aside>
+</aside> -->
